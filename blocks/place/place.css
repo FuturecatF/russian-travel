@@ -1,0 +1,9 @@
+.place {
+  display: grid;
+  column-gap: 48px;
+  row-gap: 40px;
+  grid-template-areas:
+    "title wibsite"
+    "image paragraphs"
+;
+}
