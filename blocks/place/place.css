@@ -1,11 +1,16 @@
 .place {
+  width: 100%;
+  margin: 0 auto 80px;
   display: grid;
   column-gap: 48px;
   row-gap: 40px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr;
+  grid-template-columns: minmax(auto, 460px) minmax(auto, 484px);
+  grid-template-rows: min-content min-content;
   grid-template-areas:
-    "title wibsite"
-    "image paragraphs"
-;
+    "place__title place__website"
+    "place__image place__paragraphs";
+}
+
+.place:last-of-type {
+  margin: 0 auto 0;
 }

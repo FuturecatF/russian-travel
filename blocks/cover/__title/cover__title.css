@@ -1,12 +1,10 @@
 .cover__title {
-
-
   color: #fff;
   text-align: center;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-
+  position: relative;
+  margin: 0 0 32px;
 }
