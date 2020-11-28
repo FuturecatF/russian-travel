@@ -2,6 +2,8 @@
   display: grid;
   column-gap: 48px;
   row-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-areas:
     "title wibsite"
     "image paragraphs"

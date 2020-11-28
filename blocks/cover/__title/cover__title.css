@@ -1,7 +1,6 @@
 .cover__title {
-  position: absolute;
-  top: 70px;
-  left: 50px;
+
+
   color: #fff;
   text-align: center;
   font-family: 'Inter';
@@ -9,6 +8,5 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  opacity: 1;
 
 }

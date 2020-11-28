@@ -1,4 +1,6 @@
 .place__title {
   color: #fff;
   grid-area: title;
+  align-self: last baseline;
+
 }
