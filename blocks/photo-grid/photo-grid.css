@@ -16,9 +16,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .photo-grid {
-      grid-template-columns: repeat(2, minmax(auto, 352px));
-      gap: 16px;
+  .photo-grid {
+    grid-template-columns: repeat(2, minmax(auto, 352px));
+    gap: 16px;
     }
 }
 

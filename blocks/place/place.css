@@ -48,6 +48,10 @@
 @media screen and (max-width: 320px) {
   .place {
     grid-template-columns: 320px;
+    grid-template-areas:
+    "place__title"
+    "place__image"
+    "place__paragraphs";
     margin: 0 auto 49px;
   }
 }

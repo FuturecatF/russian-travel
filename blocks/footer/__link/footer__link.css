@@ -5,21 +5,15 @@
   font-size: 16px;
   line-height: 18px;
   text-decoration: none;
-  margin: 0 18px 0 0;
-  display: block;
+
 }
 
 .footer__link:hover {
   opacity: 0.8;
 }
 
-.footer__link:last-of-type {
-  margin: 0;
-}
-
 @media screen and (max-width: 659px) {
   .footer__link {
-    margin: 0 0 32px;
     font-size: 24px;
     line-height: 24px;
   }
