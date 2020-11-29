@@ -1,7 +1,3 @@
- h1, h2, h3, div, img, p, section, span, ul, li, a, header, footer {
-  border: 1px solid red;
-}
-
 @font-face {
   font-family: 'Inter';
   src: url('../../fonts/Inter-Regular.woff') format('woff'),
