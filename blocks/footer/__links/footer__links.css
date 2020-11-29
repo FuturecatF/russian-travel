@@ -3,7 +3,13 @@
   align-items: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
+  .footer__links {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 659px) {
   .footer__links {
     flex-direction: column;
     display: block;
