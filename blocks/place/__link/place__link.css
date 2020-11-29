@@ -6,6 +6,7 @@
   line-height: 22px;
   text-decoration-line: underline;
   margin: 0;
+  align-self: start;
 }
 
 .place__link:hover {
