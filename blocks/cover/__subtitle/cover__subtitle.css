@@ -6,6 +6,14 @@
   color: #fff;
   text-align: center;
   position: relative;
-  padding: 0 calc(412px - 312px) 0 calc(412px - 312px);
+  padding: 32px calc((100% - 360px) / 2) 0;
   margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    padding: 16px calc((100% - 288px) / 2) 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }

@@ -6,5 +6,26 @@
   font-size: 72px;
   line-height: 76px;
   position: relative;
-  margin: 0 0 32px;
+  padding: 245px calc((100% - 560px) / 2) 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    padding-top: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    padding-top: 115px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    padding: 33px calc((100% - 288px) / 2) 0;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

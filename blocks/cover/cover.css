@@ -7,7 +7,6 @@
   background-position: center;
   box-sizing: border-box;
   position: relative;
-  padding: 245px 312px 245px 312px;
 }
 
 .cover::before {
